@@ -59,7 +59,7 @@
 </script>
 
 <svelte:head>
-	<title>{stepCopy.title} · Albert</title>
+	<title>{stepCopy.title} · Lorem ipsum</title>
 	<meta name="description" content={copy.metaDescription} />
 </svelte:head>
 

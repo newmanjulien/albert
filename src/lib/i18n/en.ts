@@ -10,36 +10,36 @@ export const en = {
 		otherLanguage: 'Français',
 		switchLanguage: 'Switch to French'
 	},
-	metaDescription: 'A simple multi-step form.',
+	metaDescription: 'Lorem ipsum dolor sit amet.',
 	steps: {
 		introduction: {
-			title: "Let's get to know you",
-			description: 'Share a little about yourself in a few simple steps. You can review your details before you finish.'
+			title: 'Lorem ipsum dolor sit amet',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 		},
 		'contact-details': {
-			title: 'Contact details',
-			description: "Let's start with a few details. Add a few more details, or continue as you are."
+			title: 'Lorem ipsum',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.'
 		},
 		'additional-details': {
-			title: 'A little more about you',
-			description: 'Add a few more details, or continue as you are.'
+			title: 'Lorem ipsum dolor sit amet',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 		},
 		review: {
-			title: 'Review your details',
-			description: 'Take a look before you finish.'
+			title: 'Lorem ipsum dolor sit',
+			description: 'Lorem ipsum dolor sit amet.'
 		},
 		completion: {
-			title: "You're all done",
-			description: 'Thanks for taking a moment.'
+			title: 'Lorem ipsum dolor',
+			description: 'Lorem ipsum dolor sit amet.'
 		}
 	},
 	fields: {
-		name: { label: 'Name', placeholder: 'Name' },
-		email: { label: 'Email', placeholder: 'Email' },
-		message: { label: 'Message', placeholder: 'Message' },
-		company: { label: 'Company', placeholder: 'Company (optional)' },
-		role: { label: 'Role', placeholder: 'Role (optional)' }
+		name: { label: 'Lorem', placeholder: 'Lorem' },
+		email: { label: 'Ipsum', placeholder: 'Ipsum' },
+		message: { label: 'Dolor', placeholder: 'Dolor' },
+		company: { label: 'Sit amet', placeholder: 'Sit amet (consectetur)' },
+		role: { label: 'Adipiscing', placeholder: 'Adipiscing (elit)' }
 	},
-	review: { notProvided: 'Not provided' },
-	completion: { body: "You can start over whenever you're ready." }
+	review: { notProvided: 'Lorem ipsum' },
+	completion: { body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' }
 } satisfies Messages;

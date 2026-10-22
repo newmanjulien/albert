@@ -10,36 +10,36 @@ export const fr = {
 		otherLanguage: 'English',
 		switchLanguage: 'Passer à l’anglais'
 	},
-	metaDescription: 'Un formulaire simple en plusieurs étapes.',
+	metaDescription: 'Lorem ipsum dolor sit amet.',
 	steps: {
 		introduction: {
-			title: 'Faisons connaissance',
-			description: 'Parlez-nous un peu de vous en quelques étapes simples. Vous pourrez vérifier vos renseignements avant de terminer.'
+			title: 'Lorem ipsum dolor sit amet',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 		},
 		'contact-details': {
-			title: 'Vos coordonnées',
-			description: 'Commençons par quelques renseignements. Ajoutez des détails ou passez à la suite.'
+			title: 'Lorem ipsum',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.'
 		},
 		'additional-details': {
-			title: 'Un peu plus sur vous',
-			description: 'Ajoutez quelques renseignements ou passez à la suite.'
+			title: 'Lorem ipsum dolor sit amet',
+			description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 		},
 		review: {
-			title: 'Vérifiez vos renseignements',
-			description: 'Prenez un moment pour les vérifier avant de terminer.'
+			title: 'Lorem ipsum dolor sit',
+			description: 'Lorem ipsum dolor sit amet.'
 		},
 		completion: {
-			title: 'Tout est terminé',
-			description: 'Merci d’avoir pris le temps.'
+			title: 'Lorem ipsum dolor',
+			description: 'Lorem ipsum dolor sit amet.'
 		}
 	},
 	fields: {
-		name: { label: 'Nom', placeholder: 'Nom' },
-		email: { label: 'Courriel', placeholder: 'Courriel' },
-		message: { label: 'Message', placeholder: 'Message' },
-		company: { label: 'Entreprise', placeholder: 'Entreprise (facultatif)' },
-		role: { label: 'Fonction', placeholder: 'Fonction (facultatif)' }
+		name: { label: 'Lorem', placeholder: 'Lorem' },
+		email: { label: 'Ipsum', placeholder: 'Ipsum' },
+		message: { label: 'Dolor', placeholder: 'Dolor' },
+		company: { label: 'Sit amet', placeholder: 'Sit amet (consectetur)' },
+		role: { label: 'Adipiscing', placeholder: 'Adipiscing (elit)' }
 	},
-	review: { notProvided: 'Non renseigné' },
-	completion: { body: 'Vous pouvez recommencer quand vous le souhaitez.' }
+	review: { notProvided: 'Lorem ipsum' },
+	completion: { body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' }
 } satisfies Messages;
