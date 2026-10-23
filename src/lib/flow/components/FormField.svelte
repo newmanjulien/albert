@@ -12,7 +12,7 @@
 		$props();
 
 	const fieldClass =
-		'w-full rounded-button-lg border-[0.5px] border-field-border bg-surface px-3 text-[13px] text-ink shadow-[0_1px_3px_rgb(40_37_22/0.06)] outline-none transition-colors placeholder:font-[350] placeholder:text-placeholder hover:bg-field-hover focus:border-accent focus:ring-[1px] focus:ring-inset focus:ring-accent motion-reduce:transition-none';
+		'w-full rounded-button-lg border-[0.5px] border-field-border bg-surface px-3 text-[13px] text-ink shadow-[0_1px_3px_rgb(40_37_22/0.06)] outline-none transition-colors placeholder:font-[350] placeholder:text-placeholder hover:not-focus:bg-field-hover focus:border-accent focus:ring-[1px] focus:ring-inset focus:ring-accent motion-reduce:transition-none';
 </script>
 
 <label class="block min-w-0">
